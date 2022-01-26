@@ -1,2 +1,5 @@
 # interlingue-2038
-interlingue on 2038.host
+
+### Menu
+
+* [Pronunciation guide](/pronuncitation)
