@@ -2,4 +2,4 @@
 
 ### Menu
 
-* [Pronunciation guide](/pronuncitation)
+* [Pronunciation guide](/pronunciation)
