@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Occidental</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/showdown.min.js"></script>
+</head>
+<body>
+
+	<header>
+		<div class="tilde">~</div>
+		<p class="tilde-info">Welcome to my Occidental/Interlingue site. A place to demo my ideas.</p>
+	</header>
+
+	<div id="main-content">
+	
+		<h3>Loading web page from Github...</h3>
+		
+	</div>
+	
+<script>
+
+	// Fetch raw data from Github
+	fetch('https://raw.githubusercontent.com/enfrte/interlingue-2038/master/README.md')
+		.then( response => response.text() )
+		.then( text => {
+			const converter = new showdown.Converter();
+			const html      = converter.makeHtml(text);
+			document.querySelector('#main-content').innerHTML = html;
+		})
+		.catch( err => console.warn('Something went wrong.', err) );
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pronunciation</title>
+
+<script defer src="../js/alpine.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div x-data="alpineInstance()" id="interlingue-pronunciation">
+
+	<div class="interlingue-keyboard-container">
+
+		<h3>Pronunciation</h3>
+
+		<h4>The consonants are pronounced as in English, with the following exceptions:</h4>
+		
+		<!--
+		
+		<button class="key-button regular-key" x-on:click="play('')"></button>
+		
+		-->
+		
+		<p><strong>c</strong> = <button class="key-button regular-key" x-on:click="play('c-ts')">ts</button> when before e and i Example: [cive], [helice]</p> 
+		<p>Otherwise <strong>c</strong> = <button class="key-button regular-key" x-on:click="play('hard-c')">k</button></p>
+		<p><strong>g</strong> = <button class="key-button regular-key" x-on:click="play('soft-g')">ʒ</button> when before e and i Example: plage, giraffe;</p> 
+		<p>Otherwise <strong>g</strong> = <button class="key-button regular-key" x-on:click="play('hard-g')">g</button> is hard as in go</p>
+		<p><strong>ss</strong> = <button class="key-button regular-key" x-on:click="play('ss')">s</button> as in pass</p>
+		<p><strong>s</strong> = <button class="key-button regular-key" x-on:click="play('s')">z</button> when between vowels. Examples: rose, positiv</p>
+		<p><strong>z</strong> = <button class="key-button regular-key" x-on:click="play('z')">dz</button></p>
+		<p><strong>zz</strong> = <button class="key-button regular-key" x-on:click="play('c-ts')">ts</button></p>
+		<p><strong>ch</strong> = <button class="key-button regular-key" x-on:click="play('ch')">ʃ</button> Example: chambre.</p>
+		<p><strong>j</strong> = <button class="key-button regular-key" x-on:click="play('soft-g')">ʒ</button></p>
+		<p>Otherwise <strong>t</strong> = <button class="key-button regular-key" x-on:click="play('t')">t</button> Example: bastion.</p>
+		<p><strong>t</strong> = <button class="key-button regular-key" x-on:click="play('c-ts')">ts</button> when followed by ia, io, iu, or ie and not preceded by an s. Examples: nation.</p>
+
+		https://occidental-lang.com/interlingue-for-beginners/1.html
+
+		https://en.wikipedia.org/wiki/Interlingue#Pronunciation
+
+		https://www.ipachart.com/
+		
+	</div>
+
+</div>
+
+<script>
+	function alpineInstance() 
+	{
+		return {
+			letters: [],
+			play: function(filename) {
+				const audioFile = 'audio/'+filename+'.mp3';
+				new Audio(audioFile).play();
+			},
+		}
+	}
+</script>
+
+</body>
+</html>
