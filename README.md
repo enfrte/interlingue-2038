@@ -3,3 +3,5 @@
 ### Menu
 
 * [Pronunciation guide](/pronunciation)
+* [Wikipedia Search](/wikipedia-search)
+
