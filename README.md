@@ -4,4 +4,4 @@
 
 * [Pronunciation guide](/pronunciation)
 * [Wikipedia Search](/wikipedia-search)
-
+* [Duo text](/duo-text)
