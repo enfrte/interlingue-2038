@@ -1,6 +1,8 @@
 # Interlingue Initiative 
 
-Welcome to my Occidental/Interlingue site. A place to demo my ideas.
+Welcome to my Occidental/Interlingue site. 
+
+A place to demo my ideas.
 
 ### Menu
 
