@@ -1,7 +1,28 @@
 body {
-	background-color: #123;
+	background-color: #2e3561;
 	margin: 0;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'routed-gothic', sans-serif;
+	text-transform: uppercase;
+	color: whitesmoke;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	background-image: url('../img/interlingue_inititive_bg_v3.png');
+	background-repeat: repeat;
+}
+
+@font-face {
+	font-family: 'routed-gothic';
+	src: url(fonts/routed-gothic.ttf);
+}
+
+a {
+	color: whitesmoke;
+}
+
+header > img {
+	max-width: 210px;
+	height: auto;
 }
 
 .tilde {
@@ -13,21 +34,17 @@ body {
 	margin: auto;
 }
 
-header {
-	background-color: #E4D00A;
-}
-
 header, #main-content {
 	display: flex;
 	flex-direction: column;
 	max-width: 600px;
 	margin: auto;
-	padding: 15px;
+	padding: 30px 15px 15px 15px;
 
 }
 
 #main-content {
-	background-color: whitesmoke;
+	flex-grow: 1;
 }
 
 ul {
@@ -36,4 +53,8 @@ ul {
 
 ul li {
 	padding-bottom: 15px;
+}
+
+footer {
+	text-align: center;
 }

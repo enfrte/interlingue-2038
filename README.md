@@ -1,4 +1,6 @@
-# interlingue 2038
+# Interlingue Initiative 
+
+Welcome to my Occidental/Interlingue site. A place to demo my ideas.
 
 ### Menu
 
