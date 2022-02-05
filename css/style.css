@@ -65,3 +65,8 @@ ul li {
 footer {
 	text-align: center;
 }
+
+hr {
+	width: 100%;
+	border-top: 2px solid whitesmoke;
+}
