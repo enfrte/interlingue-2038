@@ -1,4 +1,4 @@
-# Interlingue Initiative 
+# The Interlingue Initiative 
 
 ---
 
@@ -13,3 +13,4 @@ A place to demo my ideas.
 * [Pronunciation guide](/pronunciation)
 * [Wikipedia Search](/wikipedia-search)
 * [Duo text](/duo-text)
+* [Natural language learning method](/nature-method)

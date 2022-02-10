@@ -1,3 +1,9 @@
+
+@font-face {
+	font-family: 'routed-gothic';
+	src: url(fonts/routed-gothic.ttf);
+}
+
 body {
 	background-color: #2e3561;
 	margin: 0;
@@ -11,13 +17,12 @@ body {
 	background-repeat: repeat;
 }
 
-@font-face {
-	font-family: 'routed-gothic';
-	src: url(fonts/routed-gothic.ttf);
-}
-
 a {
 	color: whitesmoke;
+}
+
+header {
+	padding: 30px 15px 0 15px;
 }
 
 header > img {
@@ -25,24 +30,11 @@ header > img {
 	height: auto;
 }
 
-.tilde {
-	margin: auto;
-	font-size: 10em;
-}
-
-.tilde-info {
-	margin: auto;
-}
-
 header, #main-content {
 	display: flex;
 	flex-direction: column;
 	max-width: 420px;
 	margin: auto;
-}
-
-header {
-	padding: 30px 15px 15px 15px;
 }
 
 #main-content {
