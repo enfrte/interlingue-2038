@@ -14,3 +14,4 @@ A place to demo my ideas.
 * [Wikipedia Search](/wikipedia-search)
 * [Duo text](/duo-text)
 * [Natural language learning method](/nature-method)
+* [Community dictionary 2](/community-dictionary-2)
