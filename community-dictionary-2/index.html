@@ -108,7 +108,7 @@ function alpineInstance() {
 
 			if (this[languageSearch].length > 1) {
 				for (let j = 1; j < this.dic.length; j++) { // 1 = skip the db title
-					const regex = new RegExp('\\b' + this[languageSearch], 'gi')
+					const regex = new RegExp('(?<!\w)' + this[languageSearch] + '(?!\w)', 'giu')
 					const found = this.dic[j][this.dbColumn].match(regex);
 					
 					// If you get a match error, make sure there are no empty lines in your data file.
