@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Occidental Dictionary Search</title>
+
+<meta name="description" content="A dictionary search app for the Occidental (Interlingue) language, pulling from open source dictionary data.">
+
+<!-- Open Graph protocol meta data  -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Occidental Dictionary Search" />
+<meta property="og:description" content="A dictionary search app for the Occidental (Interlingue) language, pulling from open source dictionary data." />
+<meta property="og:url" content="https://occidental-lang.com/dictionaries/" />
+<meta property="og:image" content="https://occidental-lang.com/img/occidental-logo2.png" />
+
+<!-- 
+Dark and Light Themes 
+-->
+<script>
+// If `prefers-color-scheme` is not supported, fall back to light mode.
+// In this case, light.css will be downloaded with `highest` priority.
+if (window.matchMedia('(prefers-color-scheme: dark)').media === 'not all') {
+	document.documentElement.style.display = 'none';
+	document.head.insertAdjacentHTML(
+		'beforeend',
+		'<link rel="stylesheet" href="style/light.css" onload="document.documentElement.style.display = \'\'">'
+	);
+}
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.min.js"></script>
+<script defer src="../js/alpine.min.js"></script>
+
+<link rel="stylesheet" href="style/dark.css" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="style/light.css" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+<link rel="stylesheet" href="style/style.css">
+<link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div 
+	x-data="alpineInstance()"
+	x-init="Papa.parse('data/en-ie.csv', {
+		download: true,
+		header: false,
+		//worker: true,
+		complete: function (res) {
+			dic = res.data;
+			errors = res.errors;
+			//console.log('Res:', res.data);
+		}
+	})">
+	<input 
+		x-data="{ lang: 'EnSearch', dbColumn: 0 }" 
+		x-on:input="IeSearch = ''; searchData()" 
+		x-model="EnSearch" 
+		type="text" 
+		placeholder="English">
+	
+	<input 
+		x-data="{ lang: 'IeSearch', dbColumn: 1 }" 
+		x-on:input="EnSearch = ''; searchData()" 
+		x-model="IeSearch" 
+		type="text" 
+		placeholder="Interlingue">
+
+	<table style="max-width:800px;">
+		
+		<template x-if="dic.length > 1">
+			<tr>
+				<th x-text="dic[0][0]"></th>
+				<th x-text="dic[0][1]"></th>
+			</tr>
+		</template>
+		
+		<template x-if="searchResults.length > 1">
+			<template x-for="row in searchResults" :key="index">
+				<tr>
+					<td x-text="row[0]"></td>
+					<td x-text="row[1]"></td>
+				</tr>
+			</template>
+		</template>
+		<template x-if="searchResults.length == 0">
+			<tr><td colspan="2">No results</td></tr>
+		</template>
+
+	</table>
+
+</div>
+
+<script>
+
+function alpineInstance() {		
+	return {
+		search: '',
+		dic: dic,
+		EnSearch: "",
+		IeSearch: "",
+		searchResults: [],
+		searchData() {
+			this.searchResults = [];
+			//console.log(this.dbColumn);
+			let languageSearch = this.lang;
+
+			if (this[languageSearch].length > 1) {
+				for (let j = 1; j < this.dic.length; j++) { // 1 = skip the db title
+					const regex = new RegExp('\\b' + this[languageSearch], 'gi')
+					const found = this.dic[j][this.dbColumn].match(regex);
+					
+					// If you get a match error, make sure there are no empty lines in your data file.
+
+					if (found) {
+						this.searchResults.push(this.dic[j]);
+					}
+				}
+				//console.log(this.searchResults);				
+			}
+
+		}
+	}
+}
+
+let dic = [];
+let errors = [];
+
+</script>
+</body>
+ 
+</html>
