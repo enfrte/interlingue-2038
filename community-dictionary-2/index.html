@@ -69,14 +69,14 @@ if (window.matchMedia('(prefers-color-scheme: dark)').media === 'not all') {
 
 	<table style="max-width:800px;">
 		
-		<template x-if="dic.length > 1">
+		<template x-if="dic.length > 0">
 			<tr>
 				<th x-text="dic[0][0]"></th>
 				<th x-text="dic[0][1]"></th>
 			</tr>
 		</template>
-		
-		<template x-if="searchResults.length > 1">
+
+		<template x-if="searchResults.length > 0">
 			<template x-for="row in searchResults" :key="index">
 				<tr>
 					<td x-text="row[0]"></td>
@@ -84,8 +84,18 @@ if (window.matchMedia('(prefers-color-scheme: dark)').media === 'not all') {
 				</tr>
 			</template>
 		</template>
-		<template x-if="searchResults.length == 0">
+
+		<template x-if="(EnSearch.length > 1 || IeSearch.length > 1) && searchResults.length == 0">
 			<tr><td colspan="2">No results</td></tr>
+		</template>
+
+		<template x-if="EnSearch.length < 2 && IeSearch.length < 2">
+			<tr>
+				<td colspan="2">
+					Type at least 2 characters 
+					(currently not supported on Safari/iOS browsers)
+				</td>
+			</tr>
 		</template>
 
 	</table>
@@ -103,12 +113,13 @@ function alpineInstance() {
 		searchResults: [],
 		searchData() {
 			this.searchResults = [];
-			//console.log(this.dbColumn);
 			let languageSearch = this.lang;
+
+			//console.log('languageSearch:',this[languageSearch]);
 
 			if (this[languageSearch].length > 1) {
 				for (let j = 1; j < this.dic.length; j++) { // 1 = skip the db title
-					const regex = new RegExp('(?<!\w)' + this[languageSearch] + '(?!\w)', 'giu')
+					const regex = new RegExp('(?<!\\w)' + this[languageSearch], 'gi')
 					const found = this.dic[j][this.dbColumn].match(regex);
 					
 					// If you get a match error, make sure there are no empty lines in your data file.
@@ -117,7 +128,7 @@ function alpineInstance() {
 						this.searchResults.push(this.dic[j]);
 					}
 				}
-				//console.log(this.searchResults);				
+				//console.log('searchResults:', this.searchResults);			
 			}
 
 		}
