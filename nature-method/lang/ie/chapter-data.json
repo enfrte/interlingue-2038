@@ -3,7 +3,8 @@
 		"id": 1,
 		"index_title": "Capitul un (1)",
 		"index_slug": "Unesim capitul",
-		"title": "familie",
+		"title": "Familie",
+		"chapter_index": 1,
 		"page": [
 			{
 				"id": 9,
@@ -13,7 +14,7 @@
 					"Seniora Smith es un fémina.",
 					"John es un púer.",
 					"Helen es un puella.",
-					"Li bebé es anc un puella.",
+					"Anc li bebé es un puella.",
 					"Helen e li bebé es puellas.",
 					"Senior Smith es li patre.",
 					"Seniora Smith es li matre.",
@@ -56,7 +57,7 @@
 					"Senior e Seniora Smith es li genitores de John.",
 					"Helen es li filia de Senior e Seniora Smith.",
 					"Senior e Seniora Smith es li genitores de Helen.",
-					"Li bebé es anc de filia de Senior e Seniora Smith.",
+					"Anc li bebé es li filia de Senior e Seniora Smith.",
 					"Senior e Seniora Smith es li genitores del bebé.",
 					"Senior Smith, Seniora Smith, John, Helen e li bebé es un familie.",
 					"Hay quin (5) persones in li familie.",
@@ -90,7 +91,7 @@
 				"id": 11,
 				"content": [
 					"John es un person.",
-					"Helen es un person, e li bebé es anc un person.",
+					"Helen es un person, e anc li bebé es un person.",
 					"Quant persones existe in li familie?",
 					"Hay quin persones in li familie.",
 					"Qui es li quin persones in li familie?",
@@ -188,7 +189,7 @@
 					"John es un ———.",
 					"Helen es un ———.",
 					"Helen e li bebé es ———.",
-					"John es un ———, e Helen e li bebé es anc ———.",
+					"John es un ———, e anc Helen e li bebé es ———.",
 					"——— un púer in li familie.",
 					"——— du puellas in la familie.",
 					"——— un patre in li familie.",
@@ -256,7 +257,7 @@
 					"——— es senior Smith?",
 					"Il es li patre ——— infantes.",
 					"——— infantes existe in li familie?",
-					"Hay ——— infantes in li familia.",
+					"Hay ——— infantes in li familie.",
 					"——— púeres existe in li familie?",
 					"Hay ——— púer in li familie.",
 					"——— puellas existe in li familie?",
@@ -346,5 +347,663 @@
 				]
 			}
 		]
+	},
+	{
+		"id": 8,
+		"index_title": "Capitul du (2)",
+		"index_slug": "Duesim capitul",
+		"title": "Li annu",
+		"chapter_index": 2,
+		"page": [
+			{
+				"id": 16,
+				"content": [
+					"Januar es un mensu.",
+					"Februar es un mensu.",
+					"Hay decidu (12) mensus, un (1), du (2), tri (3), quar (4), quin (5), six (6), sett (7), ott (8), nin (9), deci (10), deciun (11), decidu (12).",
+					"Januar es li unesim (1-im) mensu.",
+					"Februar es li duesim (2-im) mensu.",
+					"Marte es li triesim (3-im) mensu.",
+					"April es li quaresim (4-im) mensu.",
+					"May es li quinesim (5-im) mensu.",
+					"Junio es li sixesim (6-im) mensu.",
+					"Julí es li settesim (7-im) mensu.",
+					"August es li ottesim (8-im) mensu.",
+					"Septembre es li ninesim (9-im) mensu.",
+					"Octobre es li deciesim (10-im) mensu.",
+					"Novembre es li deciunesim (11-im) mensu.",
+					"Decembre es li deciduesim (12-im) mensu."
+				],
+				"aside": [
+					[
+						"Februar es un mensu.", 
+						"Hay decidu mensus."
+					],
+					[
+						"un - unesim",
+						"du - duesim",
+						"tri - triesim",
+						"quar - quaresim",
+						"quin - quinesim",
+						"six - sixesim",
+						"sett - settesim",
+						"ott - ottesim",
+						"nin - ninesim",
+						"deci - deciesim",
+						"deciun - deciunesim",
+						"decidu - deciduesim",
+						"decitri - decitriesim",
+						"deciquar - deciquaresim"
+					]
+				]
+			}
+		]
+	},
+	{
+		"id": 9,
+		"index_title": "Capitul du (2)",
+		"index_slug": "Duesim capitul",
+		"page": [
+			{
+				"id": 17,
+				"content": [
+					"Januar e februar es mensus.",
+					"Hay decidu mensus in un annu.",
+					"Januar es li unesim mensu del annu.",
+					"Decembre es li final mensu del annu.",
+					"Un annu have decidu mensus.",
+					"Un mensu have quar semanes.",
+					"Tri mensus have decitri (13) semanes.",
+					"Un semane have sett dies.",
+					"Du semanes have deciquar (14) dies.",
+					"Quant mensus existe in un annu?",
+					"Hay decidu mensus in un annu.",
+					"Quant semanes existe in un mensu?",
+					"Hay quar semanes in un mensu.",
+					"Quant dies existe in un semane?",
+					"Hay sett dies in un semane.",
+					"Quo es li sett dies in un semane?",
+					"Li sett dies del semane es: Soledí, Lunedí, Mardí, Mercurdí, Jovedí, Venerdí, Saturdí.",
+					"Quel mensu es li unesim mensu del annu?",
+					"Januar es li unesim mensu del annu."
+				],
+				"aside": [
+					[
+						"have", 
+						"Un semane have sett dies.",
+						"Du semanes have deciquar dies."
+					]				
+				]
+			}
+		]
+	},
+	{
+		"id": 10,
+		"index_title": "Capitul du (2)",
+		"index_slug": "Duesim capitul",
+		"page": [
+			{
+				"id": 18,
+				"content": [
+					"Quo es li final mensu del annu?",
+					"Decembre es li final mensu del annu.",
+					"Quo es li unesim die del semane?",
+					"Soledí es li unesim die del semane.",
+					"Quo es li final die del semane?",
+					"Saturdí es li final die del semane.",
+					"Quel del dies del semane es li duesim (2-im)?",
+					"Lunedí es li duesim (2-im) die del semane.",
+					"Mardí es li triesim (3-im) die del semane.",
+					"Mercurdí es li quaresim (4-im) die del semane.",
+					"Jovedí es li quinesim (5-im) die del semane.",
+					"Venerdí es li sixesim (6-im) die del semane.",
+					"Saturdí es li settesim (7-im) die del semane.",
+					"Saturdí es anc li final die del semane.",
+					"Quel del mensus del annu es li deciduesim (12th)?"
+				],
+				"aside": [
+					[
+						"quo?", 
+						"quel del?",
+						"Quo es li unesim mensu del annu?",
+						"Quel del mensu del annu es li unesim?"
+					]				
+				]
+			}
+		]
+	},
+	{
+		"id": 11,
+		"index_title": "Capitul du (2)",
+		"index_slug": "Duesim capitul",
+		"page": [
+			{
+				"id": 19,
+				"content": [
+					"Decembre is li deciduesim (12-im) e anc li final mensu del annu.",
+					"Quo es li ninesim (9-im) mensu del annu?",
+					"Septembre es li ninesim (9-im) mensu.",
+					"Quel die es li ottesim (8-im) die del semane?",
+					"Ne hay ottesim (8-im) die del semane.",
+					"Hay solmen sett (7) dies in un semane.",
+					"Quel del mensus del annu es li triesim (13th)?",
+					"Ne hay decitriesim mensu del annu.",
+					"Hay solmen decidu mensus in un annu.",
+					"<h3 class='chapter-sub-title'>Practica A</h3>",
+					"Januar es un ———.",
+					"Marte e April es ———.",
+					"——— es li unesim mensu del annu.",
+					"Februar es li ——— semanu del annu.",
+					"Marte es li ——— mensu.",
+					"April es li ——— mensu.",
+					"Junio es li ——— mensu.",
+					"Julí es li ——— mensu.",
+					"August es li ——— mensu.",
+					"Septembre es li ——— mensu.",
+					"Octobre es li ——— mensu.",
+					"Novembre es li ——— mensu.",
+					"Decembre es li ——— e anc li ——— mensu del annu."
+				],
+				"aside": [
+					[
+						"ne",
+						"Ne hay ottesim die del semane."
+					],
+					[
+						"PARLOES:",
+						"quar",
+						"six",
+						"sett",
+						"ott",
+						"nin",
+						"deci",
+						"deciun",
+						"decidu",
+						"decitri",
+						"deciquar",
+						"unesim",
+						"duesim"
+					]
+				]
+			}
+		]
+	},
+	{
+		"id": 12,
+		"index_title": "Capitul du (2)",
+		"index_slug": "Duesim capitul",
+		"page": [
+			{
+				"id": 20,
+				"content": [
+					"Un ——— have decidu mensus.",
+					"Un ——— have sett dies.",
+					"Du ——— ——— deciquar dies.",
+					"Li sett dies del semane es ———...",
+					"——— hay un ottesim dia del semane.",
+					"——— hay un decitriesim mensu.",
+					"Un annu have ——— decidu mensus.",
+					"Li decidu mensus del annu es ———...",
+					"Soledí es li ——— die del semane.",
+					"Saturdí es li ——— ——— del semane.",
+					"——— dies existe in un semane?",
+					"Hay ——— dies ——— un semane.",
+					"——— semanes existe in un mensu?",
+					"Un mensu have ——— semanes.",
+					"——— semanes existe in tri mensus?",
+					"Tri mensus ——— ——— semanes.",
+					"——— mensus existe in un annu?",
+					"Un annu ——— ——— mensus.",
+					"——— es li unesim mensu del annu?",
+					"——— es li unesim mensu del annu.",
+					"——— es li quaresim die del semane?",
+					"Li quaresim dia del semane es ———.",
+					"——— es li final mensu del annu?",
+					"Li final mensu del annu es ———.",
+					"——— del mensus del annu es li decitriesim?",
+					"Ne hay ——— decitriesim mensu; hay ——— decidu mensus ——— un annu.",
+					"<h3 class='chapter-sub-title'>Practica B</h3>",
+					"Quant mensus existe in un annu?",
+					"———...",
+					"Quant dies have un semane?",
+					"———...",
+					"Quant dies have du semanes?",
+					"———...",
+					"Quant semanes existe in un mensu?",
+					"———...",
+					"Quel del mensus del annu es li unesim?",
+					"———...",
+					"Quo es li duesim mensu?",
+					"———...",
+					"Quo es li triesim mensu?",
+					"———...",
+					"Quo es li quinesim die del semane?"					
+				],
+				"aside": [
+					[
+						"triesim",
+						"quaresim",
+						"quinesim",
+						"sixesim",
+						"settesim",
+						"ottesim",
+						"ninesim",
+						"deciesim",
+						"deciunesim",
+						"decisuesim",
+						"decitriesim",
+						"deciquaresim",
+						"mensu",
+						"annu",
+						"die",
+						"Januar",
+						"Februar",
+						"Marte",
+						"April",
+						"May",
+						"Junio",
+						"Julí",
+						"August",
+						"Septembre",
+						"Octobre",
+						"Novembre",
+						"Decembre",
+						"Soledí",
+						"Lunedí",
+						"Mardí",
+						"Mercurdí",
+						"Jovedí",
+						"Venerdí",
+						"Saturdí",
+						"final"
+					]
+				]
+			}
+		]
+	},
+	{
+		"id": 13,
+		"index_title": "Capitul du (2)",
+		"index_slug": "Duesim capitul",
+		"page": [
+			{
+				"id": 21,
+				"content": [
+					"Quel del dies del semane es li ottesim?",
+					"———...",
+					"Quo es li deciduesim mensu del annu?",
+					"———...",
+					"Quel del dies del semane es li final?",
+					"———...",
+					"Quo es li decitriesim mensu del annu?",
+					"———...",
+					"Quant semanes have tri mensus?",
+					"———..."
+				],
+				"aside": [
+					[
+						"hay",
+						"have",
+						"quo?",
+						"Quel del",
+						"ne",
+						"solmen"
+					]
+				]
+			}
+		]
+	},
+	{
+		"id": 14,
+		"index_title": "Capitul un (3)",
+		"index_slug": "Triesim capitul",
+		"title": "Nómines",
+		"chapter_index": 3,
+		"page": [
+			{
+				"id": 22,
+				"content": [
+					"Li nómine del púer es John.",
+					"Li nómine del puella es Helen.",
+					"Li nómine del patre es Senior Smith.",
+					"Li nómine del matre es Seniora Smith.",
+					"Quo es li nómine del puella?",
+					"It es Helen.",
+					"Quo es li nómine del bebé puella?",
+					"It es Alice.",
+					"Quo es li nómine del púer?",
+					"It es John.",
+					"Quo es li nómines del genitores?",
+					"Ili es senior e seniora Smith.",
+					"Quo es li nómine del familie?",
+					"It es Smith.",
+					"Senior Smith have un marita.",
+					"Su nómine es seniora Smith.",
+					"Senior Smith have un filia.",
+					"Su nómine es Helen.",
+					"Senior Smith have un filio.",
+					"Su nómine es John.",
+					"Have senior Smith un marita?",
+					"Yes, il have un marita.",
+					"Quo es li nómine de su marita?"
+				],
+				"aside": [
+					[
+						"quo?",
+						"it",
+						"ili",
+						"Quo es li nómine del púer?",
+						"It es John.",
+						"Quo es li nómines del puellas?",
+						"Ili es Helen e Alice."
+					]
+				]
+			}
+		]
+	},
+	{
+		"id": 15,
+		"index_title": "Capitul un (3)",
+		"index_slug": "Triesim capitul",
+		"page": [
+			{
+				"id": 23,
+				"content": [
+					"Su nómine es seniora Smith.",
+					"Have senior Smith un filio?",
+					"Yes, il have un filio.",
+					"Quo es li nómine de su filio?",
+					"Su nómine es John.",
+					"Senior Smith have un filio e du filias.",
+					"Quo es li nómines del tri enfantes?",
+					"Lor nómines es John, Helen e Alice.",
+					"John es decidu annus old.",
+					"Quant old es John?",
+					"Il es decidu annus old.",
+					"Helen es deci annus old.",
+					"Quant old es Helen?",
+					"Ella es deci annus old.",
+					"Li bébe es six mensus old.",
+					"Quant old es li bébe?",
+					"Ella es six mensus old.",
+					"John es decidu annus old, e Helen es deci annus old.",
+					"John es du annus plu old quam Helen.",
+					"Esque John es deciquar annus old?",
+					"No, il ne es deciquar (14) annus old; il es solmen decidu annus old.",
+					"Esque Helen es decitri (13) annus old?"
+				],
+				"aside": [
+					[
+						"su",
+						"lor",
+						"Li nómine del marito es senior Smith.",
+						"Su nómine es senior Smith.",
+						"Li nómine del marita es seniora Smith.",
+						"Su nómine es seniora Smith.",
+						"Li nómines del enfantes es John, Helen e Alice.",
+						"Lor nómines es John, Helen e Alice."
+					]
+				]
+			}
+		]
+	},
+	{
+		"id": 16,
+		"index_title": "Capitul un (3)",
+		"index_slug": "Triesim capitul",
+		"page": [
+			{
+				"id": 24,
+				"content": [
+					"No, ella ne es decitri annus old; ella es solmen deci annus old.",
+					"Esque Helen es plu old quam John?",
+					"No, ella ne es plu old quam John; John es du annus plu old quam la.",
+					"John ne es deciquar, ma solmen decidu annus old.",
+					"Helen ne es decitri, ma solmen deci annus old.",
+					"John ne es un puella, ma Helen es un puella.",
+					"Helen ne es un púer, ma John es un púer.",
+					"Li bebé ne es old; ella es yun.",
+					"Ella es solmen six mensus old.",
+					"Senior Smith es un yun mann; il es triantsix (36) annus old.",
+					"Seniora Smith es un yun fémina; ella es triantdu (32) annus old.",
+					"Senior Smith have un patre.",
+					"Li patre de Senior Smith ne es yun; il es old.",
+					"Il es sixantdu (62) annus old.",
+					"John, Helen, e li bebé es yun; ili es enfantes."
+				],
+				"aside": [
+					[]
+				]
+			}
+		]
+	},
+	{
+		"id": 17,
+		"index_title": "Capitul un (3)",
+		"index_slug": "Triesim capitul",
+		"page": [
+			{
+				"id": 25,
+				"content": [
+					"Anc senior e seniora Smith es yun, ma ili es plu old quam li enfantes.",
+					"Li enfantes es plu yun quam lor genitores.",
+					"Es John plu yun quam Helen?",
+					"No, il ne es plu yun quam Helen; il es du annus plu old quam Helen.",
+					"Esque li bebé es plu yun quam Helen?",
+					"Yes, ella es li max yun del enfantes.",
+					"Quel del persones in li familie es li max old?",
+					"Li patre de senior Smith es li max old.",
+					"Quel del tri enfantes es li max yun?",
+					"Li bebé es li max yun.",
+					"Have John tri sestras?",
+					"No, il have solmen du sestras, ne tri.",
+					"Have senior e seniora Smith quar enfantes?",
+					"No, ili ne have quar enfantes, ma solmen tri.",
+					"Have senior and seniora Smith du filios?",
+					"No, ili have solmen un filio, ma du filias."					
+				],
+				"aside": [
+					[
+						"yun",
+						"plu yun quam",
+						"max yun",
+						"Helen es yun.",
+						"Ella es plu yun quam John.",
+						"Li bebé es li max yun del tri enfantes.",
+						"old",
+						"plu old quam",
+						"max old",
+						"Quant old es John?",
+						"John es plu old quam Helen.",
+						"Li patre de senior Smith es li max old person in li familie.",
+						"have",
+						"John have du sestras.",
+						"Senior e seniora Smith have tri enfantes."
+					]
+				]
+			}
+		]
+	},
+	{
+		"id": 18,
+		"index_title": "Capitul un (3)",
+		"index_slug": "Triesim capitul",
+		"page": [
+			{
+				"id": 26,
+				"content": [
+					"Quo es li nómine del familie?",
+					"Li nómine del familie es Smith.",
+					"Quo es Helen?",
+					"Helen es un puella.",
+					"Quel del enfantes es li púer?",
+					"John es li púer.",
+					"Quel die es it?",
+					"It es Soledí.",
+					"Quo es li unesim die del semane?",
+					"Soledí es li unesim die del semane.",
+					"Quo es li nómine del unesim mensu?",
+					"Li nómine del unesim mensu es Januar.",
+					"Quel del mensus es li duesim?",
+					"Februar es li duesim mensu.",
+					"<h3 class='chapter-sub-title'>Practica A</h3>",
+					"Li ——— del púer es John.",
+					"Li ——— del patre es ——— Smith.",
+					"Li ——— del matre es ——— Smith.",
+					"Senior Smith have un marita; ——— nómine es Seniora Smith.",
+					"Senior Smith have un filia; ——— nómine es Helen.",
+					"Senior Smith have un filio; ——— nómine es John.",
+					"John have un sestra; li nómine ——— sestra es Helen.",
+					"Senior e Seniora Smith have tri enfantes; ——— nómines es John, Helen, e Alice.",
+					"Senior e Seniora Smith have du filias; ——— nómines es Helen e Alice.",
+					"Helen es deci annus ———.",
+					"Senior Smith es triantsix annus ———.",
+					"John es du annus ——— old quam Helen.",
+					"Helen es nin annus e six mensus ——— old quam li bebé."		
+				],
+				"aside": [
+					[]
+				]
+			}
+		]
+	},
+	{
+		"id": 19,
+		"index_title": "Capitul un (3)",
+		"index_slug": "Triesim capitul",
+		"page": [
+			{
+				"id": 27,
+				"content": [
+					"Li patre de senior Smith is li ——— ——— person en li familie.",
+					"Senior Smith es plu old ——— seniora Smith.",
+					"Helen es plu old ——— li bebé.",
+					"John ne es deciquar ——— old; li es solmen decidu annus old.",
+					"Helen ——— es decitri annus old; ella es ——— deci annus old.",
+					"Senior Smith ——— es old, ma yun.",
+					"Seniora Smith ne es un mann, ——— un fémina.",
+					"John ——— es un puella, ——— Helen es un puella.",
+					"John ——— du sestras.",
+					"Helen e li bebé ——— un fratre.",
+					"Li enfantes ——— du genitores.",
+					"Senior e seniora Smith ——— tri enfantes.",
+					"Ili ——— only un filio, ma ili ——— du filias.",
+					"Senior Smith ——— un marita.",
+					"Helen ——— un bebé sestra.",
+					"Li bebé ——— un fratre e un sestre.",
+					"——— es li nómine del puella?",
+					"——— es Helen.",
+					"——— es li nómine del max yun enfante?",
+					"——— es Alice.",
+					"——— del enfantes es li max yun?",
+					"——— es li max yun.",
+					"——— del persons in li familie es li max old?",
+					"Li patre de senior Smith es li ——— ———.",
+					"——— es li nómines del genitores?",
+					"Li nómines del genitores ——— senior e seniora Smith.",
+					"——— del persones in li familie es li max yun?",
+					"Li bebé es li ——— ——— en li familie.",
+					"——— die es it?",
+					"It es ———.",
+					"——— es li final die del semane?",
+					"——— es li final die del semane.",
+					"——— John es un puella?",
+					"———, il ——— es.",
+					"Esque Helen ——— ——— quam li bebé?",
+					"Yes, ella es ——— ——— ——— li bebé.",
+					"Esque li bebé es li ——— ——— del enfantes?",
+					"———, ella es ——— six semanes ———.",
+					"——— senior Smith es li marito de seniora Smith?",
+					"———, il es li ——— de seniora Smith.",
+					"<h3 class='chapter-sub-title'>Practica B</h3>",
+					"Quo es li nómine del bebé girl?",
+					"———.",
+					"Quel del enfantes es li púer?",
+					"———.",
+					"Quel die es it?",
+					"———.",
+					"Quo es li unesim die del semane?",
+					"———.",
+					"Quo es li nómine de li familie?"
+				],
+				"aside": [
+					[
+						"WORDS:",
+						"nómine",
+						"Quo?",
+						"it"
+					]
+				]
+			}
+		]
+	},
+	{
+		"id": 20,
+		"index_title": "Capitul un (3)",
+		"index_slug": "Triesim capitul",
+		"page": [
+			{
+				"id": 28,
+				"content": [
+					"Quel del persones en li familie es li max old?",
+					"———...",
+					"Quel del enfantes es li max yun?",
+					"———...",
+					"Quant old es ella?",
+					"———...",
+					"Quant old es Senior Smith?",
+					"———...",
+					"Quant old es Helen?",
+					"———...",
+					"Quant annus es John plu old quam Helen?",
+					"———...",
+					"Esque Helen es plu old quam li babé?",
+					"———...",
+					"Esque seniora Smith es plu old quam senior Smith?",
+					"———...",
+					"Esque John es old?",
+					"———...",
+					"Esque li patre de senior Smith es old?",
+					"———...",
+					"Esque li enfantes es yun?",
+					"———...",
+					"Esque li genitores es old?",
+					"———...",
+					"Have John tri sestras?",
+					"———...",
+					"Have li genitores tri enfantes?",
+					"———...",
+					"Have li puellas un fratre?",
+					"———...",
+					"Esque John e Helen es fratre e sestra?",
+					"———...",
+					"Have ili un sestre?",
+					"———...",
+					"Have senior e seniora Smith du filios?",
+					"———...",
+					"Quo es su nómine?",
+					"———...",
+					"Quel del enfantes es deci annus old?",
+					"———..."
+				],
+				"aside": [
+					[
+						"yes",
+						"no",
+						"su",
+						"lor",
+						"old",
+						"yun",
+						"quam",
+						"ne",
+						"ma",
+						"triantdu",
+						"triantsix",
+						"sixantdu"
+					]
+				]
+			}
+		]
 	}
+
 ]
