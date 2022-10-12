@@ -12,6 +12,6 @@ A place to demo my ideas.
 
 * [Pronunciation guide](/pronunciation)
 * [Wikipedia Search](/wikipedia-search)
-* [Duo text](/duo-text-salute-jonathan/duo-text/)
+* [Duo text](/salute-jonathan/)
 * [Natural language learning method](/nature-method)
 * [Community dictionary 2](/community-dictionary-2)
